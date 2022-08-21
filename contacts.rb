@@ -19,6 +19,19 @@ end
 
 def remove_strawberry(contacts)
   # your code here!
+  # per2 = contacts["Freddy Mercury"]
+  # flavors=per2[:favorite_ice_cream_flavors]
+  # flavors.slice(0)
+  contacts.each do |person, contact_details_hash|
+    if person == "Freddy Mercury"
+      contact_details_hash.each do |attribute, data|
+        binding.pry
+        end
+      end
+    end
+    
+  end
+
 end
 
 # print the output to the terminal for inspection

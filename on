@@ -1,0 +1,14 @@
+
+[1mFrom:[0m /home/ogalo/Ruby/code-along/phase-3-nested-hash-iteration/contacts.rb:26 Object#remove_strawberry:
+
+    [1;34m20[0m: [32mdef[0m [1;34mremove_strawberry[0m(contacts)
+    [1;34m21[0m:   [1;34m# your code here![0m
+    [1;34m22[0m:   [1;34m# per2 = contacts["Freddy Mercury"][0m
+    [1;34m23[0m:   [1;34m# flavors=per2[:favorite_ice_cream_flavors][0m
+    [1;34m24[0m:   [1;34m# flavors.slice(0)[0m
+    [1;34m25[0m:   contacts.each [32mdo[0m |person, contact_details_hash|
+ => [1;34m26[0m:     binding.pry
+    [1;34m27[0m:   [32mend[0m
+    [1;34m28[0m: 
+    [1;34m29[0m: [32mend[0m
+
